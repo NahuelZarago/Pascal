@@ -22,7 +22,7 @@ begin
   Writeln('Ingrese la cantidad de barrios que hay en el lugar "X": ');
   Readln(TotalBarrios);
 
-  // Carga de datos
+  // Carga de datos de los barrios 
   for i := 1 to TotalBarrios do
   begin
     Writeln('Ingrese el nombre del barrio: ');
