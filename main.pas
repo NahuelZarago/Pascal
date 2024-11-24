@@ -1,4 +1,4 @@
-program Barrios;
+program main;
 const
   MaxBarrios = 100;
 
@@ -140,5 +140,4 @@ i : integer;
       CalcularPorcentaje(barrio , TotalBarrios);
       Contadorbarrio(barrio , TotalBarrios);
       listado(barrio , TotalBarrios);
-
 end.
